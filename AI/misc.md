@@ -1,0 +1,7 @@
+-  **ImageNet**, that was originally built as a model to predict which of a thousand categories each photo falls into.
+- **tabular data**, such as spreadsheets and database tables
+- **collaborative filtering**, recommendation systems
+- **embedding** is simply a computational shortcut for a particular type of matrix
+- **NLP** is natural language processing. It's about taking text and doing something with it.
+- **A language model** is a model that learns to predict the next word of a sentence.
+- the bit which is specifically about understanding the sentence so far is called the **encoder**

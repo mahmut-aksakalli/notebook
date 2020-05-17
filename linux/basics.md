@@ -37,6 +37,17 @@
     - it is recursive, so it searches every directory that is in the original directory
     - it can only list files in directories that you have permission to access
 
+    ```
+    Find files that end in .conf in the current directory (and all subdirs).
+    find . -name "*.conf"
+    
+    Find files of type file (not directory, pipe or etc.) that end in .conf.
+    find . -type f -name "*.conf"
+    
+    Find can also execute another command on every file found. This example will look for *.odf files and copy them to /backup/.
+    find /data -name "*.odf" -exec cp {} /backup/ \;
+    ```
+
 - `grep` It allows you find data inside of data.
 `grep <string> <file>` however file is optional if you're using piping.
 
